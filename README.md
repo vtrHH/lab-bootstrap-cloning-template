@@ -6,31 +6,24 @@ In this Lab we'll be reproducing an existing design using Bootstrap.
 
 The [Significa](https://significa.co/) website is a beautiful example of what can be achieved with some simple styling and a minimalist mindset.
 
-![Significa Base](https://raw.githubusercontent.com/josecarneiro/lab-bootstrap-cloning-template/master/starter-code/template.png)
+![Significa Base](https://raw.githubusercontent.com/josecarneiro/lab-bootstrap-cloning-template/master/template.png)
 
 ## Deliverables
 
-You should aim to get as close to the original design as possible, while using as little custom CSS as possible.
+You should aim to build a website that is as close to the original design as possible, while using as little custom CSS as possible.
 
 ## Instructions
 
-First, let's download Bootstrap from the [official website](https://getbootstrap.com). Select the compiled CSS + JS version, and download the `.zip` file. Inside, you'll find some of the compiled Bootstrap files we'll need to develop our Bootstrap-based website.
+First, let's download Bootstrap from the [official website](https://getbootstrap.com). Select the compiled CSS + JS version, and download the `.zip` file. Inside, you'll find some of the pre-compiled Bootstrap files that we'll need to develop our Bootstrap-based website.
 
-Copy the `css/bootstrap.min.css` file to the folder `stater-code/style`, and the `js/bootstrap.bundle.js` to the folder `stater-code/scripts`.
+Copy the `css/bootstrap.min.css` file to the folder `style`.
 
 Inside of the `head` tag in our `index.html` let's import the following CSS files:
 
-- A [CSS reset](https://meyerweb.com/eric/tools/css/reset/reset.css), to normalize the base stylings between every browser.
 - The minified version of Bootstrap's stylesheets, `style/bootstrap.min.css`.
 - Our custom styles, `styles/index.css`.
 
-Additionally, include the [responsive meta tag](https://getbootstrap.com/docs/4.3/getting-started/introduction/#responsive-meta-tag).
-
-At the bottom of the `body` tag in our `index.html`, include the following scripts:
-
-- A [minified version of jQuery](https://code.jquery.com/jquery-3.3.1.slim.min.js), to provide Bootstrap with some of it's interactive functionalities.
-- The minified version of Bootstrap's scripts, `scripts/bootstrap.bundle.js`.
-- Our custom scripts, `scripts/script.js`.
+As an alternative to downloading the Bootstrap pre-compiled files, you might want to [link to their self-hosted files](https://getbootstrap.com/docs/4.4/getting-started/introduction/#css) instead.
 
 ### Iteration 1: Build the general layout
 
@@ -46,7 +39,7 @@ Remember, you are not allowed to use custom CSS at this stage.
 
 It's time to make things look good.
 
-Using Bootstrap [utilities](https://getbootstrap.com/docs/4.3/utilities/), try to approximate your page as much as possible to the original.
+Using Bootstrap [utility classes](https://getbootstrap.com/docs/4.3/utilities/), try to approximate your page as much as possible to the original.
 
 Remember, you are not allowed to use custom CSS at this stage.
 
@@ -58,6 +51,6 @@ By writing custom CSS in the `style/index.css` file, you should make your websit
 
 ### Bonus | Iteration 4: Deploy
 
-Deploy your project to [Netlify](https://www.netlify.com) or [GitHub Pages](https://pages.github.com/).
+Deploy your project to [Netlify](https://www.netlify.com).
 
 **Happy Coding!** 💙
