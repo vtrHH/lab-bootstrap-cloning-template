@@ -1,1 +1,9 @@
-/* Your own custom styles should be here */
+.blog {
+    background-color: black;
+    color: white;
+}
+
+.jumbotron {
+    background-color: white;
+}
+
